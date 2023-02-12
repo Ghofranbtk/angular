@@ -7,6 +7,7 @@ import { HomeComponent } from './core/home/home.component';
 import { AdminComponent } from './dashboard/admin/admin.component';
 import { ContactComponent } from './dashboard/contact/contact.component';
 import { ProfilComponent } from './dashboard/profil/profil.component';
+import { HeaderComponent } from './shared/header/header.component';
 
 
 const routes: Routes = [
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'admin', component: AdminComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'profil', component: ProfilComponent },
+  { path: 'header', component: HeaderComponent },
 
 ];
 
